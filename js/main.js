@@ -4,7 +4,7 @@ var config = {
     yDown: null,
     xUp: [],
     firstPic: 1,
-    lastPic: 30,
+    lastPic: 35,
     inx: 1,
 	moveRatio : 0,
     preloaded: {},
