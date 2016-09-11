@@ -221,7 +221,7 @@ html, body {
 			}
 			.accordeon-labels {
 				position: absolute;
-				top: 55%;
+				top: 570px;
 				left: 65%;
 				width: 135px;
 			}
@@ -823,15 +823,17 @@ html, body {
 				}
 				.accordeon{
 					width: 350px;
+					height: 350px;
 				}
 				
 				.accordeon-view  > div:not([class="accordeon-labels"]){
 					max-width: 350px;
 					min-width: 350px;
-					height: 360px;
+					height: 350px;
 				}
 				.accordeon-labels{
 					left: 45%;
+					top: 320px;
 				}	
 				.accordeon-view  > div.added:not([class="accordeon-labels"]){
 					background-size: 350px 350px;
