@@ -107,6 +107,7 @@ function handleLeftward() {
             setAttrChecked(config.inx + 1);
             removeAttrChecked(config.inx);
             config.inx = config.inx + 1;
+			document.getElementById('console').children[0].innerHTML = config.inx + " leftwards";
             if (config.inx > 2) {
                 for (var i = config.inx; i < config.inx + 2; i++) {
                     checkPreloaded(i);
@@ -121,6 +122,7 @@ function handleRightward() {
             setAttrChecked(config.inx - 1);
             removeAttrChecked(config.inx);
             config.inx = config.inx - 1;
+			document.getElementById('console').children[0].innerHTML = config.inx + " rightwards";
             if (config.inx > 2) {
                 for (var i = config.inx; i < config.inx + 2; i++) {
                     checkPreloaded(i);

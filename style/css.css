@@ -970,7 +970,7 @@ html, body {
 							margin-left : -11550px;
 							transition: 1s;
 						}
-						.accordeon input[id="pic35"][checked] ~.accordeon-view {
+							.accordeon input[id="pic35"][checked] ~.accordeon-view {
 							margin-left : -11900px;
 							transition: 1s;
 						}
