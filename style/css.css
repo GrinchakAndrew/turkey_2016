@@ -5,7 +5,7 @@ html, body {
 
 .vid{
 	position : fixed;
-	top: 0%;
+	top: -40%;
 	bottom: 0%;
 	min-width: 100%;
     min-height: 100%;
@@ -221,8 +221,8 @@ html, body {
 			}
 			.accordeon-labels {
 				position: absolute;
-				top: 1%;
-				left: 70%;
+				top: 55%;
+				left: 65%;
 				width: 135px;
 			}
 			.accordeon  input {
@@ -235,7 +235,7 @@ html, body {
 				display:inline-block;
 				background-color:burlywood;
 				border-radius: 50%;
-				margin: 0 3.2px;
+				margin: 0 6.2px;
 				width: 16px;
 				height: 16px;
 				font-family : Arial;
@@ -821,13 +821,17 @@ html, body {
 					min-width: 350px;
 					height: 350px;
 				}
+				.accordeon{
+					width: 350px;
+				}
+				
 				.accordeon-view  > div:not([class="accordeon-labels"]){
 					max-width: 350px;
 					min-width: 350px;
 					height: 360px;
 				}
 				.accordeon-labels{
-					left: 55%;
+					left: 45%;
 				}	
 				.accordeon-view  > div.added:not([class="accordeon-labels"]){
 					background-size: 350px 350px;
